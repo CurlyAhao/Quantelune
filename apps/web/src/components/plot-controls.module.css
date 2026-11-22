@@ -1,0 +1,91 @@
+.section {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rw-line, var(--border));
+}
+
+.section > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin: 14px 0;
+}
+
+.fields > label {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.fields input, .fields select {
+  width: 110px;
+  min-height: 34px;
+  border: 1px solid var(--rw-line, var(--border));
+  border-radius: 6px;
+  background: transparent;
+  padding: 5px 8px;
+  color: inherit;
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.values {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 0 0;
+  border: 0;
+}
+
+.values legend {
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.values label, .colors label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.values input {
+  accent-color: var(--rw-accent, currentColor);
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 14px;
+}
+
+.colors input {
+  width: 38px;
+  height: 30px;
+  padding: 2px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--rw-line, var(--border));
+  border-radius: 6px;
+}
+
+.fields :is(input, select):focus-visible,
+.colors input:focus-visible,
+.values input:focus-visible {
+  outline: 2px solid var(--rw-accent, currentColor);
+  outline-offset: 2px;
+}
+
+.section > p {
+  margin: 8px 0 0;
+  font-size: 13px;
+}

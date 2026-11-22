@@ -1,0 +1,508 @@
+{
+  "columns": [
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "thread_id",
+      "not_null": true,
+      "position": 1,
+      "table": "checkpoint_blobs",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": "''::text",
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint_ns",
+      "not_null": true,
+      "position": 2,
+      "table": "checkpoint_blobs",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "channel",
+      "not_null": true,
+      "position": 3,
+      "table": "checkpoint_blobs",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "version",
+      "not_null": true,
+      "position": 4,
+      "table": "checkpoint_blobs",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "type",
+      "not_null": true,
+      "position": 5,
+      "table": "checkpoint_blobs",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "blob",
+      "not_null": false,
+      "position": 6,
+      "table": "checkpoint_blobs",
+      "type": "bytea"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "v",
+      "not_null": true,
+      "position": 1,
+      "table": "checkpoint_migrations",
+      "type": "integer"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "thread_id",
+      "not_null": true,
+      "position": 1,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": "''::text",
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint_ns",
+      "not_null": true,
+      "position": 2,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint_id",
+      "not_null": true,
+      "position": 3,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "task_id",
+      "not_null": true,
+      "position": 4,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "idx",
+      "not_null": true,
+      "position": 5,
+      "table": "checkpoint_writes",
+      "type": "integer"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "channel",
+      "not_null": true,
+      "position": 6,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "type",
+      "not_null": false,
+      "position": 7,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "blob",
+      "not_null": true,
+      "position": 8,
+      "table": "checkpoint_writes",
+      "type": "bytea"
+    },
+    {
+      "acl": null,
+      "default": "''::text",
+      "generated": "",
+      "identity": "",
+      "name": "task_path",
+      "not_null": true,
+      "position": 9,
+      "table": "checkpoint_writes",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "thread_id",
+      "not_null": true,
+      "position": 1,
+      "table": "checkpoints",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": "''::text",
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint_ns",
+      "not_null": true,
+      "position": 2,
+      "table": "checkpoints",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint_id",
+      "not_null": true,
+      "position": 3,
+      "table": "checkpoints",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "parent_checkpoint_id",
+      "not_null": false,
+      "position": 4,
+      "table": "checkpoints",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "type",
+      "not_null": false,
+      "position": 5,
+      "table": "checkpoints",
+      "type": "text"
+    },
+    {
+      "acl": null,
+      "default": null,
+      "generated": "",
+      "identity": "",
+      "name": "checkpoint",
+      "not_null": true,
+      "position": 6,
+      "table": "checkpoints",
+      "type": "jsonb"
+    },
+    {
+      "acl": null,
+      "default": "'{}'::jsonb",
+      "generated": "",
+      "identity": "",
+      "name": "metadata",
+      "not_null": true,
+      "position": 7,
+      "table": "checkpoints",
+      "type": "jsonb"
+    }
+  ],
+  "constraints": [
+    {
+      "deferrable": false,
+      "deferred": false,
+      "definition": "PRIMARY KEY (thread_id, checkpoint_ns, channel, version)",
+      "name": "checkpoint_blobs_pkey",
+      "table": "checkpoint_blobs",
+      "type": "p",
+      "valid": true
+    },
+    {
+      "deferrable": false,
+      "deferred": false,
+      "definition": "PRIMARY KEY (v)",
+      "name": "checkpoint_migrations_pkey",
+      "table": "checkpoint_migrations",
+      "type": "p",
+      "valid": true
+    },
+    {
+      "deferrable": false,
+      "deferred": false,
+      "definition": "PRIMARY KEY (thread_id, checkpoint_ns, checkpoint_id, task_id, idx)",
+      "name": "checkpoint_writes_pkey",
+      "table": "checkpoint_writes",
+      "type": "p",
+      "valid": true
+    },
+    {
+      "deferrable": false,
+      "deferred": false,
+      "definition": "PRIMARY KEY (thread_id, checkpoint_ns, checkpoint_id)",
+      "name": "checkpoints_pkey",
+      "table": "checkpoints",
+      "type": "p",
+      "valid": true
+    }
+  ],
+  "functions": 0,
+  "indexes": [
+    {
+      "definition": "CREATE UNIQUE INDEX checkpoint_blobs_pkey ON statforge_h02.checkpoint_blobs USING btree (thread_id, checkpoint_ns, channel, version)",
+      "name": "checkpoint_blobs_pkey",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE INDEX checkpoint_blobs_thread_id_idx ON statforge_h02.checkpoint_blobs USING btree (thread_id)",
+      "name": "checkpoint_blobs_thread_id_idx",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE UNIQUE INDEX checkpoint_migrations_pkey ON statforge_h02.checkpoint_migrations USING btree (v)",
+      "name": "checkpoint_migrations_pkey",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE UNIQUE INDEX checkpoint_writes_pkey ON statforge_h02.checkpoint_writes USING btree (thread_id, checkpoint_ns, checkpoint_id, task_id, idx)",
+      "name": "checkpoint_writes_pkey",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE INDEX checkpoint_writes_thread_id_idx ON statforge_h02.checkpoint_writes USING btree (thread_id)",
+      "name": "checkpoint_writes_thread_id_idx",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE UNIQUE INDEX checkpoints_pkey ON statforge_h02.checkpoints USING btree (thread_id, checkpoint_ns, checkpoint_id)",
+      "name": "checkpoints_pkey",
+      "ready": true,
+      "valid": true
+    },
+    {
+      "definition": "CREATE INDEX checkpoints_thread_id_idx ON statforge_h02.checkpoints USING btree (thread_id)",
+      "name": "checkpoints_thread_id_idx",
+      "ready": true,
+      "valid": true
+    }
+  ],
+  "inheritance": 0,
+  "namespace": {
+    "acl": null,
+    "name": "statforge_h02",
+    "own_role": true
+  },
+  "policies": 0,
+  "relations": [
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "r",
+      "name": "checkpoint_blobs",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoint_blobs_pkey",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoint_blobs_thread_id_idx",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "r",
+      "name": "checkpoint_migrations",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoint_migrations_pkey",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "r",
+      "name": "checkpoint_writes",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoint_writes_pkey",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoint_writes_thread_id_idx",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "r",
+      "name": "checkpoints",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoints_pkey",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    },
+    {
+      "acl": null,
+      "force_rls": false,
+      "kind": "i",
+      "name": "checkpoints_thread_id_idx",
+      "own_role": true,
+      "persistence": "p",
+      "rls": false
+    }
+  ],
+  "rules": 0,
+  "triggers": 0,
+  "types": [
+    {
+      "acl": null,
+      "kind": "b",
+      "name": "_checkpoint_blobs",
+      "own_role": true,
+      "relation": null
+    },
+    {
+      "acl": null,
+      "kind": "b",
+      "name": "_checkpoint_migrations",
+      "own_role": true,
+      "relation": null
+    },
+    {
+      "acl": null,
+      "kind": "b",
+      "name": "_checkpoint_writes",
+      "own_role": true,
+      "relation": null
+    },
+    {
+      "acl": null,
+      "kind": "b",
+      "name": "_checkpoints",
+      "own_role": true,
+      "relation": null
+    },
+    {
+      "acl": null,
+      "kind": "c",
+      "name": "checkpoint_blobs",
+      "own_role": true,
+      "relation": "checkpoint_blobs"
+    },
+    {
+      "acl": null,
+      "kind": "c",
+      "name": "checkpoint_migrations",
+      "own_role": true,
+      "relation": "checkpoint_migrations"
+    },
+    {
+      "acl": null,
+      "kind": "c",
+      "name": "checkpoint_writes",
+      "own_role": true,
+      "relation": "checkpoint_writes"
+    },
+    {
+      "acl": null,
+      "kind": "c",
+      "name": "checkpoints",
+      "own_role": true,
+      "relation": "checkpoints"
+    }
+  ]
+}

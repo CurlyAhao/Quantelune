@@ -1,0 +1,16 @@
+/* Layout for the research question's compact machine-learning form. */
+.builder { background: transparent; box-shadow: none; --tw-ring-shadow: none; }
+.builder > [data-slot="card-header"] { padding: 0 0 2px; }
+.builder > [data-slot="card-content"] { padding: 0; }
+.taskFields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.featureSection, .modelSection { border-top: 1px solid var(--rw-line, #d9dfdb); padding-top: 16px; }
+.featureSection h3, .modelSection h3 { font-size: 14px; font-weight: 650; margin: 0 0 12px; }
+.featureGroups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.featureGroups button, .modelSection button[aria-pressed], .taskFields button[aria-pressed] { font-family: inherit; font-size: 13px; line-height: 1.4; min-height: 32px; text-align: left; overflow-wrap: anywhere; }
+.featureGroups button[aria-pressed=true], .modelSection button[aria-pressed=true], .taskFields button[aria-pressed=true] { background: var(--rw-accent, #245c46); border-color: var(--rw-accent, #245c46); color: var(--on-action); }
+.modelSection > div + div { margin-top: 16px; }
+.advanced { border-top: 1px solid var(--rw-line, #d9dfdb); padding-top: 12px; }
+.advanced > summary { cursor: pointer; font-size: 13px; }
+@media (max-width: 650px) {
+  .taskFields, .featureGroups { grid-template-columns: minmax(0, 1fr); }
+}

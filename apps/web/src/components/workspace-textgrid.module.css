@@ -1,0 +1,33 @@
+.root{display:grid;gap:10px;margin:12px 0;min-width:0;font-size:.85rem}
+.header,.importer,.editor{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px}
+.header>span,.axis{color:var(--rw-muted);font-size:.8rem}
+.importer{padding:8px 0}.importer>span{flex-basis:100%}
+.importer label,.editor label{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.importer input[type=number],.editor input[type=number]{width:150px}
+.editor label:has(input:not([type=number])){flex:1 1 250px}
+.editor label input:not([type=number]){flex:1;min-width:120px;width:auto}
+.editor strong{flex-basis:100%}
+.layerTitle{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:4px}
+.layerTitle>div{max-width:220px}
+.lane{position:relative;height:44px;background:var(--rw-surface);border:1px solid var(--rw-line);overflow:hidden}
+.lane button{position:absolute;top:0;height:100%;border:0;border-right:1px solid var(--rw-accent);border-radius:0;background:transparent;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:.8rem;padding:5px}
+.lane button[aria-pressed=true]{background:var(--chrome-selected)}
+.lane .point{overflow:visible;padding-left:7px;transform:translateX(-1px);text-align:left;border-left:2px solid var(--rw-accent);border-right:0;max-width:40%}
+.point i{position:absolute;top:0;left:-5px;border:4px solid transparent;border-top-color:var(--rw-accent)}
+.cursor{position:absolute;top:0;bottom:0;border-left:2px solid #b36337;pointer-events:none}
+.axis{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums}
+.root p[role=alert]{margin:0;color:var(--rw-error,#a44136)}
+.layer{min-width:0}
+.layerTitle .tierSelect{background:transparent;border-color:transparent;font-weight:600;text-align:left;min-width:0;overflow-wrap:anywhere}
+.layerTitle .tierSelect[aria-pressed=true]{color:var(--rw-accent);border-bottom-color:var(--rw-accent)}
+.layerMenu{margin:4px 0 8px}
+.layerMenu summary{width:fit-content;cursor:pointer;color:var(--rw-muted)}
+.layerTools,.actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0}
+.layerTools label{display:flex;align-items:center;gap:6px}
+.layerTools input{width:180px;max-width:100%}
+.actions span{font-size:.8rem;color:var(--rw-muted);font-variant-numeric:tabular-nums}
+.editor .labelText{flex:1 1 320px;align-items:flex-start}
+.labelText textarea{flex:1;min-width:160px;width:100%;resize:vertical;font:inherit}
+.root button:focus-visible,.root summary:focus-visible{outline:2px solid var(--rw-accent);outline-offset:2px}
+
+.segmentation{border:0;padding:8px 0;min-width:0}.segmentation>p{margin:4px 0 10px;color:var(--rw-muted)}.segmentFields{display:flex;flex-wrap:wrap;gap:10px 16px;margin:8px 0 12px}.segmentFields label{display:grid;gap:5px}.segmentFields input[type=number]{width:150px}.segmentFields label:has(input[type=checkbox]){display:flex;align-items:center}

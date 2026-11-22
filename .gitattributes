@@ -1,0 +1,52 @@
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.icns binary
+apps/api/app/research/profiles/** -text
+apps/api/app/research/saved_replies.py -text whitespace=cr-at-eol
+apps/api/app/routers/research_security.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_admission.py -text whitespace=cr-at-eol
+apps/api/app/research/harness_binding.py -text whitespace=cr-at-eol
+apps/api/app/research/model_request.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_answer.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_answer_fields.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_contracts.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_death.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_harness.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_model.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_runtime.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_saved_descriptive.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_sdk_finish.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_sources.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_tools.py -text whitespace=cr-at-eol
+apps/api/app/research/reviewer_sources.py -text whitespace=cr-at-eol
+apps/api/app/research/model_history.py -text whitespace=cr-at-eol
+apps/api/app/research/egress.py -text whitespace=cr-at-eol
+apps/api/app/research/historical_reply.py -text whitespace=cr-at-eol
+apps/api/app/services/research_gateway_service.py -text whitespace=cr-at-eol
+apps/api/app/research/reader_wire_budget.py -text whitespace=cr-at-eol
+apps/api/app/research/p4_report.py -text whitespace=cr-at-eol
+apps/api/app/routers/research.py -text whitespace=cr-at-eol
+apps/api/app/main.py -text whitespace=cr-at-eol
+apps/api/app/research/reviewer_results.py -text whitespace=cr-at-eol
+apps/api/app/research/reviewer_supervision.py -text whitespace=cr-at-eol
+apps/api/app/research/reviewer_supervisor.py -text whitespace=cr-at-eol
+apps/web/src/components/formal-research-plan.tsx -text whitespace=cr-at-eol
+apps/web/src/lib/api-download.ts -text whitespace=cr-at-eol
+apps/web/src/lib/messages/research-en.ts -text whitespace=cr-at-eol
+apps/web/src/lib/messages/research-zh-CN.ts -text whitespace=cr-at-eol
+apps/api/app/research/transport.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_model.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_wire.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_v2.py -text whitespace=cr-at-eol
+apps/api/app/research/planning_lease.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_admission.py -text whitespace=cr-at-eol
+apps/api/app/research/plan_receipt.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_preparation.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_messages.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_harness.py -text whitespace=cr-at-eol
+apps/api/app/research/planner_supervision.py -text whitespace=cr-at-eol
+apps/api/app/research/harness_postgres.py -text whitespace=cr-at-eol
+apps/api/app/statistics/assumptions.py -text whitespace=cr-at-eol
+apps/api/app/statistics/methods/anova.py -text whitespace=cr-at-eol
+apps/api/app/research/assistant_model.py -text whitespace=cr-at-eol

@@ -1,0 +1,44 @@
+.drawer.drawer { position: fixed; inset: 0 0 0 auto; transform: none; translate: none; width: min(1060px, 92vw); max-width: 92vw; height: 100dvh; display: flex; flex-direction: column; gap: 0; padding: 0; border-radius: 0; box-shadow: -8px 0 28px rgb(0 0 0 / .09); background: var(--rw-bg, #faf9f6); color: var(--rw-text, #252623); }
+.header { background: var(--chrome-header); display: flex; flex: none; align-items: center; justify-content: space-between; padding: 17px 22px; border-bottom: 1px solid var(--rw-line); }
+.header > div { display: flex; gap: 8px; }
+.layout { min-height: 0; display: grid; grid-template-columns: 265px minmax(0, 1fr); flex: 1; }
+.list { min-height: 0; overflow-y: auto; border-right: 1px solid var(--rw-line); padding: 18px 13px; background: var(--rw-sidebar); }
+.filters { display: grid; gap: 9px; margin-bottom: 20px; }
+.filters :is(input, select) { width: 100%; min-width: 0; font-size: 12px; }
+.list ol { list-style: none; padding: 0; margin: 0; }
+.list li { margin: 0 0 5px; }
+.drawer .list li > button { display: block; width: 100%; padding: 10px; text-align: left; border: 0; background: transparent; border-radius: 5px; }
+.drawer .list li > button[aria-pressed=true] { background: var(--rw-soft); }
+.list strong { display: block; font-size: 13px; font-weight: 500; line-height: 1.6; overflow-wrap: anywhere; }
+.list li span { display: flex; flex-wrap: wrap; gap: 7px; justify-content: space-between; margin-top: 6px; font-size: 11px; color: var(--rw-muted); }
+.detail { min-width: 0; min-height: 0; overflow: auto; padding: 24px 27px 40px; }
+.detailHeader { margin-bottom: 20px; }
+.drawer .detailHeader h2 { font-size: 20px; line-height: 1.4; margin: 0 0 7px; }
+.drawer .detailHeader p { font-size: 12px; color: var(--rw-muted); }
+.actions,.exports { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+.drawer .actions button,.drawer .exports button { font-size: 12px; }
+.detail > details { margin-top: 18px; padding-block: 12px; border-top: 1px solid var(--rw-line); }
+.detail summary { cursor: pointer; font-size: 13px; font-weight: 500; }
+.parameters { margin-top: 12px; font-size: 12px; }
+.parameters > div { display: grid; grid-template-columns: minmax(80px, 1fr) minmax(0, 3fr); gap: 12px; margin: 7px 0; }
+.parameters dt { color: var(--rw-muted); overflow-wrap: anywhere; }
+.parameters dd { min-width: 0; margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.metadata { display: grid; grid-template-columns: 75px minmax(0, 1fr); gap: 9px; margin: 14px 0; font-size: 12px; }
+.metadata dt { color: var(--rw-muted); }
+.metadata dd { margin: 0; overflow-wrap: anywhere; }
+.versions ol { margin: 12px 0 0; padding: 0; list-style: none; }
+.drawer .versions button { display: flex; justify-content: space-between; gap: 16px; width: 100%; margin-block: 4px; font-size: 12px; }
+.versions button[aria-pressed=true] { background: var(--rw-soft); }
+.versions time { color: var(--rw-muted); }
+.continue label { display: flex; align-items: center; gap: 12px; margin: 12px 0; font-size: 12px; }
+.continue select { flex: 1; min-width: 0; }
+.report { margin-top: 18px; }
+.report section { margin: 22px 0; }
+.drawer .report p,.drawer .draft p { white-space: pre-wrap; line-height: 1.75; margin: 10px 0; }
+.detail :global(.report-figure img),.detail :global(.report-figure svg) { max-width: 100%; height: auto; }
+.detail :global(.research-table-scroll),.detail :global(.statistics-result-view) { min-width: 0; overflow: auto; }
+.drawer .empty { color: var(--rw-muted); font-size: 13px; line-height: 1.7; margin: 18px 0; }
+.drawer .error { color: var(--destructive, #a33434); line-height: 1.6; white-space: pre-wrap; margin: 12px 0; }
+.drawer .otherRuns { font-size: 12px; margin-bottom: 12px; }
+@media(max-width: 850px) { .drawer.drawer { width: 96vw; max-width: 96vw; } .layout { grid-template-columns: 210px minmax(0, 1fr); } .detail { padding: 20px 16px; } }
+@media(max-width: 620px) { .layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(120px, 33%) minmax(0, 1fr); } .list { border-right: 0; border-bottom: 1px solid var(--rw-line); } .filters { display: flex; margin-bottom: 10px; } }

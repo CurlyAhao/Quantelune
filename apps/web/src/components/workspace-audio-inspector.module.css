@@ -1,0 +1,89 @@
+.inspector {display:grid;gap:10px;min-width:0;padding:12px;border:1px solid var(--rw-line,#d9dfdb);border-radius:8px}
+.heading,.actions {display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}.heading span,.note,.axis {color:var(--rw-muted,#66736b);font-size:.82rem}.actions label {display:inline-flex;gap:5px;align-items:center}.actions input {width:85px}.inspector audio {width:min(100%,560px)}.curve {min-width:0}.curve > svg {display:block;width:100%;height:100px;background:var(--rw-surface,#f8faf9);touch-action:none;cursor:crosshair}.line {fill:none;stroke:#347a67;stroke-width:2;vector-effect:non-scaling-stroke}.selection {fill:#5eae9633}.cursor {stroke:#b36337;stroke-width:2;vector-effect:non-scaling-stroke}.axis {display:flex;justify-content:space-between}.curve p,.note {margin:0}
+
+.points {fill:none;stroke:#347a67;stroke-width:3;stroke-linecap:round;vector-effect:non-scaling-stroke}
+
+.controls {display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.controls label {display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.controls input[type=checkbox] {width:auto;margin:0;accent-color:var(--rw-accent)}
+.spectrum {position:relative;margin-top:8px;min-width:0}
+.spectrum > svg {display:block;width:100%;height:180px;overflow:hidden;touch-action:none;cursor:crosshair}
+.spectrumAxis {position:relative;height:1.6em;min-width:0;color:var(--rw-muted,#66736b);font-size:.82rem;font-variant-numeric:tabular-nums}
+.spectrumAxis span {position:absolute;bottom:0;transform:translateX(-50%);white-space:nowrap}
+.spectrumAxis span:first-child {transform:none}
+.spectrumAxis span:last-child {transform:translateX(-100%)}
+.frequency {position:absolute;inset:4px auto 4px 6px;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none;font-size:11px;color:var(--rw-text)}
+.frequency span {background:var(--rw-surface);padding:1px 3px}
+.spectrumMethod {font-size:.82rem;margin:5px 0 12px;color:var(--rw-muted)}
+.spectrumMethod p {margin:5px 0}
+.readings {margin:14px 0 18px;font-size:.82rem}
+.pointReadout {display:flex;flex-wrap:wrap;gap:5px 14px;margin-bottom:12px;font-variant-numeric:tabular-nums}
+.pointReadout strong {flex-basis:100%}
+.statistics {overflow-x:auto;margin:6px 0}
+.statistics table {width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.statistics th,.statistics td {padding:4px 8px;border-bottom:1px solid var(--rw-line);text-align:right;white-space:nowrap}
+.statistics th:first-child {text-align:left;font-weight:500}
+
+.axis {touch-action:none;cursor:crosshair;user-select:none}
+
+.bandwidth {margin-top:10px}.bandwidth summary {cursor:pointer;margin-bottom:8px}
+
+.spectralSlice {margin:14px 0;min-width:0}
+.sliceActions,.sliceTitle {display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:10px 0}
+.sliceActions label {display:inline-flex;align-items:center;gap:6px;font-size:.85rem}
+.sliceActions input {width:100px;font-variant-numeric:tabular-nums}
+.sliceActions select {min-width:88px}
+.sliceHistory {display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0;font-size:.85rem}
+.sliceHistory>div {min-width:260px;flex:1;max-width:620px}
+.sliceTitle strong {margin-right:auto;font-size:.95rem}
+.curve .slicePlot {height:250px;cursor:crosshair}
+.slicePlot text {fill:var(--rw-muted);font-size:11px;font-variant-numeric:tabular-nums}
+.sliceGrid {stroke:var(--rw-line);stroke-width:1;vector-effect:non-scaling-stroke}
+.sliceReading {font-variant-numeric:tabular-nums;font-size:.85rem;margin:8px 0!important}
+.sliceActions {align-items:flex-end}
+.sliceActions label {display:grid;gap:5px}
+.sliceActions input,.sliceActions button,.slicePointRow input,.sliceTitle button {min-height:36px}
+.slicePointRow {display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:6px 0 14px;border-bottom:1px solid var(--rw-line)}
+.slicePointRow label {display:inline-flex;align-items:center;gap:10px;font-size:.85rem}
+.slicePointRow input {width:125px;font-variant-numeric:tabular-nums}
+.bandReading {display:flex;flex-wrap:wrap;gap:16px 30px;margin:18px 0;font-variant-numeric:tabular-nums}
+.bandReading div {min-width: min(100%, 230px)}
+.bandReading dt {font-size:.8rem;color:var(--rw-muted);margin-bottom:5px}
+.bandReading dd {margin:0;font-size:1rem;font-weight:600;overflow-wrap:anywhere}
+.bandReading dd span {font-size:.82rem;font-weight:400}
+.pulse {stroke:#8d6299;stroke-width:1;opacity:.65;vector-effect:non-scaling-stroke;cursor:pointer}
+.pulse:hover {stroke-width:3;opacity:1}
+:global(.dark) .curve :is(.line, .points) {stroke:#7fbaa7}
+:global(.dark) .curve .pulse {stroke:#cba5d8}
+.pitchCandidates {margin:10px 0;font-size:.85rem}.pitchCandidates summary {cursor:pointer;font-weight:600}.pitchCandidates p {margin:6px 0}.pitchSummary,.pitchActions {display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:10px 0;font-variant-numeric:tabular-nums}.pitchActions label {display:inline-flex;align-items:center;gap:5px}.pitchActions input[type=number] {width:75px}.pitchCandidates table label {display:inline-flex;align-items:center;gap:6px}
+
+.pitchParameters {margin:10px 0}.pitchParameterFields {display:flex;flex-wrap:wrap;gap:8px 14px;margin:8px 0}.pitchParameterFields label {display:inline-flex;align-items:center;gap:5px}.pitchParameterFields input {width:80px}
+.curve .formantComparison {height:240px;cursor:default}.formantComparison text {fill:var(--rw-muted);font-size:12px}.formantLegend {display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem}.statistics tr[aria-selected=true] {background:var(--rw-surface-secondary,#e8ece3)}
+.inspector {border:0;padding:0;gap:14px;}
+.actions {padding:12px 0;border-bottom:1px solid var(--rw-line);align-items:end;}
+.actions label {display:grid;gap:5px;font-size:12px;}
+.actions input {width:104px;font-size:14px;}
+.heading {padding-bottom:8px;}
+.curve {margin-top:10px;}
+.inspector > button {justify-self:start;}
+.inspector {gap:12px}
+.inspector audio {width:min(100%,700px)}
+.curve > svg {height:145px;background:var(--rw-surface)}
+.actions {padding:12px 0 4px;border:0;gap:10px;align-items:end}
+.actions .timeInput {display:flex;align-items:stretch;border:1px solid var(--rw-line,#d9dfdb);border-radius:5px;background:var(--rw-surface,#fff);overflow:hidden}
+.actions .timeInput input {border:0;background:transparent;width:82px;min-width:0;padding:7px 8px}
+.actions .timeInput button {border:0;border-left:1px solid var(--rw-line,#d9dfdb);border-radius:0;padding:0 8px;background:transparent;color:var(--rw-accent,#245c46);min-height:34px}
+.actions .timeInput button:hover {background:var(--rw-surface-secondary,#e8ece3)}
+.workArea {border:1px solid var(--rw-line,#d9dfdb);border-radius:7px;min-width:0;margin-top:8px;background:var(--rw-surface,#fff)}
+.workTabs {background:var(--chrome-inset);display:flex;gap:22px;padding:0 16px;border-bottom:1px solid var(--rw-line,#d9dfdb)}
+.workTabs button {border:0;border-bottom:2px solid transparent;background:none;border-radius:0;padding:12px 2px;color:var(--rw-muted,#66736b)}
+.workTabs button[aria-selected=true] {border-bottom-color:var(--rw-accent,#245c46);color:var(--rw-text,#22382e);font-weight:600}
+.workPanel {padding:14px 16px;min-width:0}
+.workPanel[hidden] {display:none}
+.spectrogram .spectralSlice {margin-top:0}
+@media(max-width:700px) {.actions {gap:8px}.actions .timeInput input{width:70px}.workPanel{padding:12px}}
+.field {display:grid;gap:5px;font-size:12px}
+.curveHeading {display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.waveActions {display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.waveActions button {display:inline-flex;align-items:center;gap:5px}
+.timeInput button {display:inline-flex;align-items:center;justify-content:center}

@@ -1,0 +1,9 @@
+.root { display: grid; gap: .75rem; margin-block: .75rem; min-width: 0; }
+.root audio, .root video { max-width: 100%; }
+.controls { display: flex; flex-wrap: wrap; align-items: end; gap: .6rem; }
+.controls label { display: grid; gap: .25rem; }
+.controls input { width: 7rem; }
+.segments { display: grid; gap: .35rem; max-height: 26rem; overflow: auto; }
+.segment { display: grid; grid-template-columns: auto auto minmax(0, 1fr); gap: .5rem; padding: .3rem; }
+.segment[data-active] { background: var(--rw-hover, #eaf2ed); }
+.segment textarea { min-height: 3rem; width: 100%; resize: vertical; }

@@ -1,0 +1,54 @@
+.surface { color: var(--rw-text); font-size: 14px; }
+.surface button { color: inherit; cursor: pointer; }
+.surface button:disabled { cursor: default; opacity: .55; }
+.surface :is(button,input,summary):focus-visible { outline: 2px solid var(--rw-accent); outline-offset: 2px; }
+.scopeControls { display: flex; gap: 18px; flex-wrap: wrap; align-items: end; }
+.scopeControls > label { min-width: 210px; flex: 1; max-width: 380px; display: grid; gap: 6px; }
+.themeChoice { position: relative; }
+.themeChoice summary { padding: 8px; cursor: pointer; }
+.themeChoice > div { display: grid; gap: 9px; padding: 12px 0; }
+.themeChoice label { display: flex; gap: 7px; align-items: center; }
+.surface input[type=checkbox] { width: auto; accent-color: var(--rw-accent); }
+.attributes { max-width: 600px; margin-block: 12px; }
+.attributes label:has(input[type=checkbox]) { display: flex; align-items: center; gap: 6px; }
+.attributes input:not([type=checkbox]) { border: 1px solid var(--rw-field); padding: 7px; border-radius: 5px; background: var(--rw-surface); color: inherit; }
+.scope { font-weight: 600; margin: 18px 0 6px; }
+.method,.count { color: var(--rw-muted); font-size: 13px; line-height: 1.6; }
+.method { margin: 0 0 18px; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-bottom: 10px; border-bottom: 1px solid var(--rw-line); }
+.tabs { display: flex; gap: 8px; }
+.tabs button { padding: 7px 12px; }
+.tabs button[aria-pressed=true] { background: var(--rw-soft); font-weight: 600; }
+.tableScroll { overflow: auto; max-width: 100%; }
+.surface table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.surface th { text-align: left; font-weight: 600; background: var(--rw-surface); }
+.surface :is(th,td) { border-bottom: 1px solid var(--rw-line); padding: 12px 10px; vertical-align: top; line-height: 1.5; }
+.matrix th { min-width: 145px; max-width: 245px; overflow-wrap: anywhere; }
+.matrix td { text-align: center; vertical-align: middle; }
+.matrix button { min-width: 42px; padding: 7px; border-radius: 5px; font-weight: 600; color: var(--rw-accent); }
+.matrix button:not(:disabled) { background: var(--rw-soft); }
+.matrix button:disabled { background: transparent; color: var(--rw-muted); font-weight: 400; }
+.relationControls { display: flex; align-items: end; gap: 18px; margin-top: 16px; flex-wrap: wrap; }
+.relationControls label { width: 180px; display: grid; gap: 6px; }
+.relationControls p { margin: 0; }
+.details .source { min-width: 170px; max-width: 230px; overflow-wrap: anywhere; }
+.details small { display: block; color: var(--rw-muted); font-size: 12px; margin-top: 6px; }
+.details .excerpt { display: block; min-width: 180px; width: 100%; text-align: left; padding: 0; line-height: 1.6; }
+.excerpt strong,.excerpt span { display: block; }
+.excerpt span { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 6px; }
+.details .number { text-align: right; }
+.pagination { display: flex; justify-content: flex-end; align-items: center; gap: 12px; margin-top: 16px; }
+.empty { color: var(--rw-muted); padding-block: 24px; }
+.surface .number { text-align: right; font-variant-numeric: tabular-nums; }
+.agreementStats { display: flex; flex-wrap: wrap; gap: 24px 48px; margin-block: 22px 10px; }
+.agreementStats dt { color: var(--rw-muted); font-size: 13px; }
+.agreementStats dd { margin: 6px 0 0; font-size: 18px; font-variant-numeric: tabular-nums; }
+.differenceHeading { font-size: 16px; margin-top: 28px; }
+.rowDetail { display: block; color: var(--rw-muted); font-size: 12px; font-weight: 400; margin-top: 4px; }
+.matrix button[aria-pressed=true] { outline: 2px solid var(--rw-accent); outline-offset: 1px; }
+.evidenceList { margin-top: 28px; }
+.evidenceList h3 { font-size: 16px; margin: 0; }
+.evidenceList article { padding-block: 16px; border-bottom: 1px solid var(--rw-line); }
+.evidenceList p { white-space: pre-wrap; max-width: 75ch; margin: 8px 0 0; line-height: 1.65; }
+.evidenceLink { color: var(--rw-accent); text-align: left; text-decoration: underline; text-underline-offset: 3px; }
+.memo { color: var(--rw-muted); }

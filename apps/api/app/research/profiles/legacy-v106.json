@@ -1,0 +1,7955 @@
+{
+  "baseline_revision": "aacbcf50997e",
+  "format": 1,
+  "id": "legacy-v106",
+  "provenance": {
+    "basis": "isolated empty non-research Base metadata; not VM or original Run evidence",
+    "candidate_input_commit": "619c920c14caf37d778614132dabf7ba1cb17b1c",
+    "legacy_source_commit": "1096328679108d4221cc40f18cd77d6ad3d1585d",
+    "lock_sha256": "a0d6ce94b587a9af9cee8331fbb155cce5fb73ef78003eb8f7c2b2ddd974ab85",
+    "models": {
+      "apps/api/app/models/agent.py": {
+        "legacy_git_blob_sha256": "b8c71663d768b6fc5a27f9cfec8f2323368a118e8e0e1896e813cc6c229566b2",
+        "sha256_lf": "b8c71663d768b6fc5a27f9cfec8f2323368a118e8e0e1896e813cc6c229566b2"
+      },
+      "apps/api/app/models/ai.py": {
+        "legacy_git_blob_sha256": "09935490aa6fd024aa5e83b916f5b02cb91c3f6d45017a05ae3a06e9651641dc",
+        "sha256_lf": "09935490aa6fd024aa5e83b916f5b02cb91c3f6d45017a05ae3a06e9651641dc"
+      },
+      "apps/api/app/models/analysis.py": {
+        "legacy_git_blob_sha256": "075713a8802157d490e3f5a601a6d44647cbb066f1a8fcb09bb92323efed3bac",
+        "sha256_lf": "075713a8802157d490e3f5a601a6d44647cbb066f1a8fcb09bb92323efed3bac"
+      },
+      "apps/api/app/models/audit.py": {
+        "legacy_git_blob_sha256": "672b9ce317d5c23c09a15a46cfe6024d416ae08f1006ec7ac434e82c881ba21c",
+        "sha256_lf": "672b9ce317d5c23c09a15a46cfe6024d416ae08f1006ec7ac434e82c881ba21c"
+      },
+      "apps/api/app/models/auth_session.py": {
+        "legacy_git_blob_sha256": "2b0cda2d192ce5218216e20451e8a045aa28e6b575dc018467eb92ce562974c8",
+        "sha256_lf": "2b0cda2d192ce5218216e20451e8a045aa28e6b575dc018467eb92ce562974c8"
+      },
+      "apps/api/app/models/base.py": {
+        "legacy_git_blob_sha256": "b597903da5cc38da00a6913bb1668f440e7939c1802ea5a5d9670760ae3153ad",
+        "sha256_lf": "b597903da5cc38da00a6913bb1668f440e7939c1802ea5a5d9670760ae3153ad"
+      },
+      "apps/api/app/models/dataset.py": {
+        "legacy_git_blob_sha256": "aa4cfc8adcea3e2b22888e7e096b962c5c777072a5bb51909415f99e373653eb",
+        "sha256_lf": "aa4cfc8adcea3e2b22888e7e096b962c5c777072a5bb51909415f99e373653eb"
+      },
+      "apps/api/app/models/material.py": {
+        "legacy_git_blob_sha256": "cedac195a6de715583f5003628b0f3db03fe025443e667ea7180b48ad7c0a05e",
+        "sha256_lf": "cedac195a6de715583f5003628b0f3db03fe025443e667ea7180b48ad7c0a05e"
+      },
+      "apps/api/app/models/ml.py": {
+        "legacy_git_blob_sha256": "4b6238bfe5edc536aff273adf8b0ab360d732668421a94bffc30fe7addad469b",
+        "sha256_lf": "4b6238bfe5edc536aff273adf8b0ab360d732668421a94bffc30fe7addad469b"
+      },
+      "apps/api/app/models/preview.py": {
+        "legacy_git_blob_sha256": "a6defa657be213b9eff955f170c3c9fb67f5618a52b14d785a60955e6e0573bd",
+        "sha256_lf": "a6defa657be213b9eff955f170c3c9fb67f5618a52b14d785a60955e6e0573bd"
+      },
+      "apps/api/app/models/profiling.py": {
+        "legacy_git_blob_sha256": "5bd5fcbe54661598aad4771b131c7e8ce311a0cbe778a86b1753dfd59ec4cd35",
+        "sha256_lf": "5bd5fcbe54661598aad4771b131c7e8ce311a0cbe778a86b1753dfd59ec4cd35"
+      },
+      "apps/api/app/models/project.py": {
+        "legacy_git_blob_sha256": "7f01ac5fa5aaa9093eb3d19f61dfb169badc9d614e0268e2ecc18080f93187e4",
+        "sha256_lf": "7f01ac5fa5aaa9093eb3d19f61dfb169badc9d614e0268e2ecc18080f93187e4"
+      },
+      "apps/api/app/models/quality.py": {
+        "legacy_git_blob_sha256": "fc0bc0ee8281b30e646ae0e1a2b6da46c6f768f514ebbeb78d042ec9ff9a55c5",
+        "sha256_lf": "fc0bc0ee8281b30e646ae0e1a2b6da46c6f768f514ebbeb78d042ec9ff9a55c5"
+      },
+      "apps/api/app/models/review.py": {
+        "legacy_git_blob_sha256": "cd44666291128a78c69908772e1dbf137b9face8ace168c39350a78d3dd25a19",
+        "sha256_lf": "cd44666291128a78c69908772e1dbf137b9face8ace168c39350a78d3dd25a19"
+      },
+      "apps/api/app/models/statistics.py": {
+        "legacy_git_blob_sha256": "fa61169c42e394f6cd7567c558553448f7fe8e2178b7cf2314742adcebd05a23",
+        "sha256_lf": "fa61169c42e394f6cd7567c558553448f7fe8e2178b7cf2314742adcebd05a23"
+      },
+      "apps/api/app/models/user.py": {
+        "legacy_git_blob_sha256": "2b8de6217454807b01ad36493ba9b787ddb6e197580b22a288ce4a3fa6b91104",
+        "sha256_lf": "2b8de6217454807b01ad36493ba9b787ddb6e197580b22a288ce4a3fa6b91104"
+      },
+      "apps/api/app/models/workflow.py": {
+        "legacy_git_blob_sha256": "d0ba3166bc6a442e4164be3f5dad5e55c090ab9da1f4be6a7e6f3065dfbf6969",
+        "sha256_lf": "d0ba3166bc6a442e4164be3f5dad5e55c090ab9da1f4be6a7e6f3065dfbf6969"
+      },
+      "apps/api/app/models/workspace.py": {
+        "legacy_git_blob_sha256": "3494670b3a053e91a77d156bd680bb7358af96c5af47bf2bf27c001b5c3d61d7",
+        "sha256_lf": "3494670b3a053e91a77d156bd680bb7358af96c5af47bf2bf27c001b5c3d61d7"
+      }
+    },
+    "sqlalchemy": "2.0.51",
+    "sqlite": "3.53.1"
+  },
+  "schema": {
+    "objects": [
+      [
+        "index",
+        "ix_agent_plans_session_id",
+        "agent_plans",
+        "CREATE INDEX ix_agent_plans_session_id ON agent_plans (session_id)"
+      ],
+      [
+        "index",
+        "ix_agent_plans_status",
+        "agent_plans",
+        "CREATE INDEX ix_agent_plans_status ON agent_plans (status)"
+      ],
+      [
+        "index",
+        "ix_agent_sessions_project_id",
+        "agent_sessions",
+        "CREATE INDEX ix_agent_sessions_project_id ON agent_sessions (project_id)"
+      ],
+      [
+        "index",
+        "ix_agent_steps_plan_id",
+        "agent_steps",
+        "CREATE INDEX ix_agent_steps_plan_id ON agent_steps (plan_id)"
+      ],
+      [
+        "index",
+        "ix_agent_steps_status",
+        "agent_steps",
+        "CREATE INDEX ix_agent_steps_status ON agent_steps (status)"
+      ],
+      [
+        "index",
+        "ix_ai_invocations_project_id",
+        "ai_invocations",
+        "CREATE INDEX ix_ai_invocations_project_id ON ai_invocations (project_id)"
+      ],
+      [
+        "index",
+        "ix_ai_invocations_prompt_id",
+        "ai_invocations",
+        "CREATE INDEX ix_ai_invocations_prompt_id ON ai_invocations (prompt_id)"
+      ],
+      [
+        "index",
+        "ix_ai_invocations_provider",
+        "ai_invocations",
+        "CREATE INDEX ix_ai_invocations_provider ON ai_invocations (provider)"
+      ],
+      [
+        "index",
+        "ix_analysis_runs_workflow_id",
+        "analysis_runs",
+        "CREATE INDEX ix_analysis_runs_workflow_id ON analysis_runs (workflow_id)"
+      ],
+      [
+        "index",
+        "ix_audit_events_actor_id",
+        "audit_events",
+        "CREATE INDEX ix_audit_events_actor_id ON audit_events (actor_id)"
+      ],
+      [
+        "index",
+        "ix_audit_events_event_type",
+        "audit_events",
+        "CREATE INDEX ix_audit_events_event_type ON audit_events (event_type)"
+      ],
+      [
+        "index",
+        "ix_audit_events_project_id",
+        "audit_events",
+        "CREATE INDEX ix_audit_events_project_id ON audit_events (project_id)"
+      ],
+      [
+        "index",
+        "ix_auth_sessions_token_hash",
+        "auth_sessions",
+        "CREATE UNIQUE INDEX ix_auth_sessions_token_hash ON auth_sessions (token_hash)"
+      ],
+      [
+        "index",
+        "ix_auth_sessions_user_id",
+        "auth_sessions",
+        "CREATE INDEX ix_auth_sessions_user_id ON auth_sessions (user_id)"
+      ],
+      [
+        "index",
+        "ix_dataset_profiles_dataset_id",
+        "dataset_profiles",
+        "CREATE INDEX ix_dataset_profiles_dataset_id ON dataset_profiles (dataset_id)"
+      ],
+      [
+        "index",
+        "ix_datasets_project_id",
+        "datasets",
+        "CREATE INDEX ix_datasets_project_id ON datasets (project_id)"
+      ],
+      [
+        "index",
+        "ix_datasets_sha256",
+        "datasets",
+        "CREATE INDEX ix_datasets_sha256 ON datasets (sha256)"
+      ],
+      [
+        "index",
+        "ix_material_citations_material_id",
+        "material_citations",
+        "CREATE INDEX ix_material_citations_material_id ON material_citations (material_id)"
+      ],
+      [
+        "index",
+        "ix_material_citations_project_id",
+        "material_citations",
+        "CREATE INDEX ix_material_citations_project_id ON material_citations (project_id)"
+      ],
+      [
+        "index",
+        "ix_materials_project_id",
+        "materials",
+        "CREATE INDEX ix_materials_project_id ON materials (project_id)"
+      ],
+      [
+        "index",
+        "ix_ml_experiments_dataset_id",
+        "ml_experiments",
+        "CREATE INDEX ix_ml_experiments_dataset_id ON ml_experiments (dataset_id)"
+      ],
+      [
+        "index",
+        "ix_ml_experiments_project_id",
+        "ml_experiments",
+        "CREATE INDEX ix_ml_experiments_project_id ON ml_experiments (project_id)"
+      ],
+      [
+        "index",
+        "ix_ml_experiments_task_type",
+        "ml_experiments",
+        "CREATE INDEX ix_ml_experiments_task_type ON ml_experiments (task_type)"
+      ],
+      [
+        "index",
+        "ix_ml_runs_experiment_id",
+        "ml_runs",
+        "CREATE INDEX ix_ml_runs_experiment_id ON ml_runs (experiment_id)"
+      ],
+      [
+        "index",
+        "ix_ml_runs_status",
+        "ml_runs",
+        "CREATE INDEX ix_ml_runs_status ON ml_runs (status)"
+      ],
+      [
+        "index",
+        "ix_model_runs_analysis_run_id",
+        "model_runs",
+        "CREATE INDEX ix_model_runs_analysis_run_id ON model_runs (analysis_run_id)"
+      ],
+      [
+        "index",
+        "ix_projects_owner_id",
+        "projects",
+        "CREATE INDEX ix_projects_owner_id ON projects (owner_id)"
+      ],
+      [
+        "index",
+        "ix_quality_findings_category",
+        "quality_findings",
+        "CREATE INDEX ix_quality_findings_category ON quality_findings (category)"
+      ],
+      [
+        "index",
+        "ix_quality_findings_quality_run_id",
+        "quality_findings",
+        "CREATE INDEX ix_quality_findings_quality_run_id ON quality_findings (quality_run_id)"
+      ],
+      [
+        "index",
+        "ix_quality_findings_rule_id",
+        "quality_findings",
+        "CREATE INDEX ix_quality_findings_rule_id ON quality_findings (rule_id)"
+      ],
+      [
+        "index",
+        "ix_quality_findings_severity",
+        "quality_findings",
+        "CREATE INDEX ix_quality_findings_severity ON quality_findings (severity)"
+      ],
+      [
+        "index",
+        "ix_quality_findings_status",
+        "quality_findings",
+        "CREATE INDEX ix_quality_findings_status ON quality_findings (status)"
+      ],
+      [
+        "index",
+        "ix_quality_runs_dataset_id",
+        "quality_runs",
+        "CREATE INDEX ix_quality_runs_dataset_id ON quality_runs (dataset_id)"
+      ],
+      [
+        "index",
+        "ix_review_findings_analysis_run_id",
+        "review_findings",
+        "CREATE INDEX ix_review_findings_analysis_run_id ON review_findings (analysis_run_id)"
+      ],
+      [
+        "index",
+        "ix_stat_findings_category",
+        "stat_findings",
+        "CREATE INDEX ix_stat_findings_category ON stat_findings (category)"
+      ],
+      [
+        "index",
+        "ix_stat_findings_rule_id",
+        "stat_findings",
+        "CREATE INDEX ix_stat_findings_rule_id ON stat_findings (rule_id)"
+      ],
+      [
+        "index",
+        "ix_stat_findings_severity",
+        "stat_findings",
+        "CREATE INDEX ix_stat_findings_severity ON stat_findings (severity)"
+      ],
+      [
+        "index",
+        "ix_stat_findings_statistical_run_id",
+        "stat_findings",
+        "CREATE INDEX ix_stat_findings_statistical_run_id ON stat_findings (statistical_run_id)"
+      ],
+      [
+        "index",
+        "ix_stat_results_statistical_run_id",
+        "stat_results",
+        "CREATE INDEX ix_stat_results_statistical_run_id ON stat_results (statistical_run_id)"
+      ],
+      [
+        "index",
+        "ix_statistical_results_analysis_run_id",
+        "statistical_results",
+        "CREATE INDEX ix_statistical_results_analysis_run_id ON statistical_results (analysis_run_id)"
+      ],
+      [
+        "index",
+        "ix_statistical_runs_dataset_id",
+        "statistical_runs",
+        "CREATE INDEX ix_statistical_runs_dataset_id ON statistical_runs (dataset_id)"
+      ],
+      [
+        "index",
+        "ix_statistical_runs_method",
+        "statistical_runs",
+        "CREATE INDEX ix_statistical_runs_method ON statistical_runs (method)"
+      ],
+      [
+        "index",
+        "ix_statistical_runs_project_id",
+        "statistical_runs",
+        "CREATE INDEX ix_statistical_runs_project_id ON statistical_runs (project_id)"
+      ],
+      [
+        "index",
+        "ix_statistical_runs_status",
+        "statistical_runs",
+        "CREATE INDEX ix_statistical_runs_status ON statistical_runs (status)"
+      ],
+      [
+        "index",
+        "ix_users_email",
+        "users",
+        "CREATE UNIQUE INDEX ix_users_email ON users (email)"
+      ],
+      [
+        "index",
+        "ix_variables_dataset_id",
+        "variables",
+        "CREATE INDEX ix_variables_dataset_id ON variables (dataset_id)"
+      ],
+      [
+        "index",
+        "ix_workflow_nodes_workflow_id",
+        "workflow_nodes",
+        "CREATE INDEX ix_workflow_nodes_workflow_id ON workflow_nodes (workflow_id)"
+      ],
+      [
+        "index",
+        "ix_workflow_runs_status",
+        "workflow_runs",
+        "CREATE INDEX ix_workflow_runs_status ON workflow_runs (status)"
+      ],
+      [
+        "index",
+        "ix_workflow_runs_workflow_id",
+        "workflow_runs",
+        "CREATE INDEX ix_workflow_runs_workflow_id ON workflow_runs (workflow_id)"
+      ],
+      [
+        "index",
+        "ix_workflows_project_id",
+        "workflows",
+        "CREATE INDEX ix_workflows_project_id ON workflows (project_id)"
+      ],
+      [
+        "index",
+        "ix_workspace_preview_records_project_id",
+        "workspace_preview_records",
+        "CREATE INDEX ix_workspace_preview_records_project_id ON workspace_preview_records (project_id)"
+      ],
+      [
+        "index",
+        "ix_workspace_preview_records_user_id",
+        "workspace_preview_records",
+        "CREATE INDEX ix_workspace_preview_records_user_id ON workspace_preview_records (user_id)"
+      ],
+      [
+        "index",
+        "sqlite_autoindex_agent_plans_1",
+        "agent_plans",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_agent_sessions_1",
+        "agent_sessions",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_agent_steps_1",
+        "agent_steps",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_ai_invocations_1",
+        "ai_invocations",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_analysis_runs_1",
+        "analysis_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_audit_events_1",
+        "audit_events",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_auth_sessions_1",
+        "auth_sessions",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_dataset_profiles_1",
+        "dataset_profiles",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_datasets_1",
+        "datasets",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_material_citations_1",
+        "material_citations",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_materials_1",
+        "materials",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_ml_experiments_1",
+        "ml_experiments",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_ml_runs_1",
+        "ml_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_model_runs_1",
+        "model_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_charges_1",
+        "preview_charges",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_configs_1",
+        "preview_configs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_configs_2",
+        "preview_configs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_effects_1",
+        "preview_effects",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_effects_2",
+        "preview_effects",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_turns_1",
+        "preview_turns",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_preview_turns_2",
+        "preview_turns",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_projects_1",
+        "projects",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_quality_findings_1",
+        "quality_findings",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_quality_runs_1",
+        "quality_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_review_findings_1",
+        "review_findings",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_stat_findings_1",
+        "stat_findings",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_stat_results_1",
+        "stat_results",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_statistical_results_1",
+        "statistical_results",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_statistical_runs_1",
+        "statistical_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_users_1",
+        "users",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_variables_1",
+        "variables",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workflow_nodes_1",
+        "workflow_nodes",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workflow_runs_1",
+        "workflow_runs",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workflows_1",
+        "workflows",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workspace_preview_executions_1",
+        "workspace_preview_executions",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workspace_preview_executions_2",
+        "workspace_preview_executions",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workspace_preview_records_1",
+        "workspace_preview_records",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workspace_preview_revisions_1",
+        "workspace_preview_revisions",
+        null
+      ],
+      [
+        "index",
+        "sqlite_autoindex_workspace_preview_revisions_2",
+        "workspace_preview_revisions",
+        null
+      ],
+      [
+        "table",
+        "agent_plans",
+        "agent_plans",
+        "CREATE TABLE agent_plans (\n\tsession_id CHAR(32) NOT NULL, \n\tuser_goal TEXT NOT NULL, \n\tstatus VARCHAR(20) NOT NULL, \n\tcurrent_step INTEGER NOT NULL, \n\ttotal_steps INTEGER NOT NULL, \n\tcompleted_steps INTEGER NOT NULL, \n\tfailed_steps INTEGER NOT NULL, \n\tsnapshot_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(session_id) REFERENCES agent_sessions (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "agent_sessions",
+        "agent_sessions",
+        "CREATE TABLE agent_sessions (\n\tproject_id CHAR(32) NOT NULL, \n\tname VARCHAR(255) NOT NULL, \n\tapproval_mode VARCHAR(20) NOT NULL, \n\tdata_export_policy VARCHAR(30) NOT NULL, \n\ttoken_budget INTEGER NOT NULL, \n\tmax_time_seconds INTEGER NOT NULL, \n\tmax_steps INTEGER NOT NULL, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "agent_steps",
+        "agent_steps",
+        "CREATE TABLE agent_steps (\n\tplan_id CHAR(32) NOT NULL, \n\tstep_index INTEGER NOT NULL, \n\ttool VARCHAR(100) NOT NULL, \n\tparameters_json TEXT, \n\tstatus VARCHAR(20) NOT NULL, \n\tinput_hash VARCHAR(64), \n\toutput_hash VARCHAR(64), \n\tresult_json TEXT, \n\terror TEXT, \n\tretry_count INTEGER NOT NULL, \n\tapproval_granted BOOLEAN NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(plan_id) REFERENCES agent_plans (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "ai_invocations",
+        "ai_invocations",
+        "CREATE TABLE ai_invocations (\n\tproject_id CHAR(32), \n\tprovider VARCHAR(100) NOT NULL, \n\tmodel VARCHAR(100) NOT NULL, \n\tprompt_id VARCHAR(100) NOT NULL, \n\tprompt_version VARCHAR(20) NOT NULL, \n\tinput_hash VARCHAR(32), \n\toutput_hash VARCHAR(32), \n\ttoken_usage_json TEXT, \n\tlatency_ms INTEGER, \n\tcost_estimate FLOAT, \n\tstatus VARCHAR(20) NOT NULL, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "analysis_runs",
+        "analysis_runs",
+        "CREATE TABLE analysis_runs (\n\tworkflow_id CHAR(32) NOT NULL, \n\tworkflow_version INTEGER NOT NULL, \n\tdataset_hash VARCHAR(64), \n\tstatus VARCHAR(9) NOT NULL, \n\trandom_seed INTEGER, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\tenvironment_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(workflow_id) REFERENCES workflows (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "audit_events",
+        "audit_events",
+        "CREATE TABLE audit_events (\n\tproject_id CHAR(32), \n\tactor_id CHAR(32), \n\tactor_email VARCHAR(320), \n\tevent_type VARCHAR(100) NOT NULL, \n\tentity_type VARCHAR(100) NOT NULL, \n\tentity_id VARCHAR(255) NOT NULL, \n\tbefore_json TEXT, \n\tafter_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "auth_sessions",
+        "auth_sessions",
+        "CREATE TABLE auth_sessions (\n\tuser_id CHAR(32) NOT NULL, \n\ttoken_hash VARCHAR(64) NOT NULL, \n\texpires_at DATETIME NOT NULL, \n\trevoked BOOLEAN NOT NULL, \n\tuser_agent VARCHAR(512), \n\tip_address VARCHAR(45), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "dataset_profiles",
+        "dataset_profiles",
+        "CREATE TABLE dataset_profiles (\n\tdataset_id CHAR(32) NOT NULL, \n\tstatus VARCHAR(9) NOT NULL, \n\tprofiling_version INTEGER NOT NULL, \n\talgorithm_version VARCHAR(50) NOT NULL, \n\tdataset_sha256 VARCHAR(64) NOT NULL, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\trow_count INTEGER, \n\tcolumn_count INTEGER, \n\tsampled BOOLEAN NOT NULL, \n\tsample_size INTEGER, \n\tresult_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "datasets",
+        "datasets",
+        "CREATE TABLE datasets (\n\tproject_id CHAR(32) NOT NULL, \n\toriginal_filename VARCHAR(512) NOT NULL, \n\tsafe_filename VARCHAR(512) NOT NULL, \n\tfile_format VARCHAR(20) NOT NULL, \n\tmime_type VARCHAR(127) NOT NULL, \n\tfile_size INTEGER NOT NULL, \n\tsha256 VARCHAR(64) NOT NULL, \n\tobject_key VARCHAR(1024) NOT NULL, \n\tbucket VARCHAR(255) NOT NULL, \n\trow_count INTEGER, \n\tcolumn_count INTEGER, \n\tschema_json TEXT, \n\tpreview_json TEXT, \n\tupload_status VARCHAR(10) NOT NULL, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\tvalidated_at DATETIME, \n\tname VARCHAR(255) NOT NULL, \n\tfile_path VARCHAR(1024) NOT NULL, \n\tfile_type VARCHAR(50) NOT NULL, \n\tcontent_hash VARCHAR(64), \n\tprofile_status VARCHAR(50) NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "material_citations",
+        "material_citations",
+        "CREATE TABLE material_citations (\n\tmaterial_id CHAR(32) NOT NULL, \n\tuser_id CHAR(32) NOT NULL, \n\tproject_id CHAR(32) NOT NULL, \n\tmaterial_sha256 VARCHAR(64) NOT NULL, \n\tmaterial_version INTEGER NOT NULL, \n\trevision INTEGER NOT NULL, \n\treviewed BOOLEAN NOT NULL, \n\tlocator_json TEXT NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(material_id) REFERENCES materials (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id)\n)"
+      ],
+      [
+        "table",
+        "materials",
+        "materials",
+        "CREATE TABLE materials (\n\tuser_id CHAR(32) NOT NULL, \n\tproject_id CHAR(32) NOT NULL, \n\tfilename VARCHAR(255) NOT NULL, \n\tmime_type VARCHAR(100) NOT NULL, \n\tfile_size INTEGER NOT NULL, \n\tsha256 VARCHAR(64) NOT NULL, \n\tversion INTEGER NOT NULL, \n\tobject_key VARCHAR(100) NOT NULL, \n\tmetadata_json TEXT NOT NULL, \n\textraction_json TEXT NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id)\n)"
+      ],
+      [
+        "table",
+        "ml_experiments",
+        "ml_experiments",
+        "CREATE TABLE ml_experiments (\n\tproject_id CHAR(32) NOT NULL, \n\tdataset_id CHAR(32) NOT NULL, \n\tprofile_id CHAR(32), \n\tname VARCHAR(255) NOT NULL, \n\ttask_type VARCHAR(50) NOT NULL, \n\ttarget_variable VARCHAR(255) NOT NULL, \n\tfeature_variables_json TEXT, \n\tcategorical_variables_json TEXT, \n\tconfig_json TEXT, \n\tdataset_sha256 VARCHAR(64) NOT NULL, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE, \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE CASCADE, \n\tFOREIGN KEY(profile_id) REFERENCES dataset_profiles (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "ml_runs",
+        "ml_runs",
+        "CREATE TABLE ml_runs (\n\texperiment_id CHAR(32) NOT NULL, \n\tstatus VARCHAR(9) NOT NULL, \n\trandom_seed INTEGER NOT NULL, \n\tvalidation_strategy VARCHAR(50), \n\tsplit_json TEXT, \n\tmetrics_json TEXT, \n\tcomparison_json TEXT, \n\tleakage_checks_json TEXT, \n\tn_observations INTEGER, \n\tartifact_key VARCHAR(1024), \n\tartifact_meta_json TEXT, \n\tsoftware_versions_json TEXT, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(experiment_id) REFERENCES ml_experiments (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "model_runs",
+        "model_runs",
+        "CREATE TABLE model_runs (\n\tanalysis_run_id CHAR(32) NOT NULL, \n\tmodel_type VARCHAR(100) NOT NULL, \n\tparameters_json TEXT, \n\tvalidation_strategy VARCHAR(100), \n\tmetrics_json TEXT, \n\tfeature_names_json TEXT, \n\tartifact_path VARCHAR(1024), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(analysis_run_id) REFERENCES analysis_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "preview_charges",
+        "preview_charges",
+        "CREATE TABLE preview_charges (\n\tconfig_id CHAR(32) NOT NULL, \n\tturn_id CHAR(32) NOT NULL, \n\tamount NUMERIC(20, 8) NOT NULL, \n\tstatus VARCHAR(32) NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(config_id) REFERENCES preview_configs (id), \n\tFOREIGN KEY(turn_id) REFERENCES preview_turns (id)\n)"
+      ],
+      [
+        "table",
+        "preview_configs",
+        "preview_configs",
+        "CREATE TABLE preview_configs (\n\tuser_id CHAR(32) NOT NULL, \n\tvault_namespace VARCHAR(64) NOT NULL, \n\tconfig_json TEXT NOT NULL, \n\treserved NUMERIC(20, 8) NOT NULL, \n\trevision INTEGER NOT NULL, \n\tkey_configured BOOLEAN NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tUNIQUE (user_id), \n\tFOREIGN KEY(user_id) REFERENCES users (id)\n)"
+      ],
+      [
+        "table",
+        "preview_effects",
+        "preview_effects",
+        "CREATE TABLE preview_effects (\n\tturn_id CHAR(32) NOT NULL, \n\toperation_hash VARCHAR(64) NOT NULL, \n\tstatus VARCHAR(32) NOT NULL, \n\tresult_json TEXT NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tUNIQUE (turn_id, operation_hash), \n\tFOREIGN KEY(turn_id) REFERENCES preview_turns (id)\n)"
+      ],
+      [
+        "table",
+        "preview_turns",
+        "preview_turns",
+        "CREATE TABLE preview_turns (\n\tuser_id CHAR(32) NOT NULL, \n\tproject_id CHAR(32) NOT NULL, \n\trequest_id VARCHAR(64) NOT NULL, \n\tinput_hash VARCHAR(64) NOT NULL, \n\tscope_json TEXT NOT NULL, \n\tauthorization_json TEXT NOT NULL, \n\tstatus VARCHAR(32) NOT NULL, \n\tresponse_json TEXT NOT NULL, \n\terror_code VARCHAR(64), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tUNIQUE (user_id, request_id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id)\n)"
+      ],
+      [
+        "table",
+        "projects",
+        "projects",
+        "CREATE TABLE projects (\n\towner_id CHAR(32), \n\ttitle VARCHAR(255) NOT NULL, \n\tdescription TEXT, \n\tresearch_question TEXT, \n\ttask_type VARCHAR(25), \n\tstatus VARCHAR(8) NOT NULL, \n\tcurrent_revision INTEGER NOT NULL, \n\tfrozen_at DATETIME, \n\tsnapshot_json TEXT, \n\tis_deleted BOOLEAN NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(owner_id) REFERENCES users (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "quality_findings",
+        "quality_findings",
+        "CREATE TABLE quality_findings (\n\tquality_run_id CHAR(32) NOT NULL, \n\trule_id VARCHAR(100) NOT NULL, \n\trule_version VARCHAR(20) NOT NULL, \n\tcategory VARCHAR(50) NOT NULL, \n\tseverity VARCHAR(20) NOT NULL, \n\tstatus VARCHAR(20) NOT NULL, \n\ttitle VARCHAR(500) NOT NULL, \n\tsummary TEXT, \n\tevidence_json TEXT, \n\taffected_columns_json TEXT, \n\taffected_count INTEGER NOT NULL, \n\taffected_ratio FLOAT NOT NULL, \n\tthreshold_json TEXT, \n\tobserved_value_json TEXT, \n\tremediation TEXT, \n\tcreated_at DATETIME NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(quality_run_id) REFERENCES quality_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "quality_runs",
+        "quality_runs",
+        "CREATE TABLE quality_runs (\n\tdataset_id CHAR(32) NOT NULL, \n\tprofile_id CHAR(32), \n\tstatus VARCHAR(21) NOT NULL, \n\truleset_version VARCHAR(100) NOT NULL, \n\tthreshold_config_json TEXT, \n\tdataset_sha256 VARCHAR(64) NOT NULL, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\ttotal_rules INTEGER NOT NULL, \n\tpassed_count INTEGER NOT NULL, \n\twarning_count INTEGER NOT NULL, \n\tfailed_count INTEGER NOT NULL, \n\terror_count INTEGER NOT NULL, \n\tskipped_count INTEGER NOT NULL, \n\toverall_score FLOAT, \n\tscore_json TEXT, \n\tohlcv_enabled BOOLEAN NOT NULL, \n\tsampled BOOLEAN NOT NULL, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE CASCADE, \n\tFOREIGN KEY(profile_id) REFERENCES dataset_profiles (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "review_findings",
+        "review_findings",
+        "CREATE TABLE review_findings (\n\tanalysis_run_id CHAR(32) NOT NULL, \n\tsource VARCHAR(11) NOT NULL, \n\tcategory VARCHAR(100) NOT NULL, \n\tseverity VARCHAR(8) NOT NULL, \n\ttitle VARCHAR(500) NOT NULL, \n\tdescription TEXT, \n\tevidence_json TEXT, \n\tsuggestion TEXT, \n\tconfidence FLOAT, \n\tresolution VARCHAR(8) NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(analysis_run_id) REFERENCES analysis_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "stat_findings",
+        "stat_findings",
+        "CREATE TABLE stat_findings (\n\tstatistical_run_id CHAR(32) NOT NULL, \n\trule_id VARCHAR(100) NOT NULL, \n\tcategory VARCHAR(50) NOT NULL, \n\tseverity VARCHAR(20) NOT NULL, \n\ttitle VARCHAR(500) NOT NULL, \n\tsummary TEXT, \n\tevidence_json TEXT, \n\tremediation TEXT, \n\tcreated_at DATETIME NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(statistical_run_id) REFERENCES statistical_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "stat_results",
+        "stat_results",
+        "CREATE TABLE stat_results (\n\tstatistical_run_id CHAR(32) NOT NULL, \n\tmethod VARCHAR(100) NOT NULL, \n\tresult_type VARCHAR(50) NOT NULL, \n\tstatistic_name VARCHAR(100), \n\tstatistic_value FLOAT, \n\tdegrees_of_freedom_json TEXT, \n\tp_value FLOAT, \n\talternative VARCHAR(20) NOT NULL, \n\tconfidence_level FLOAT NOT NULL, \n\tconfidence_interval_json TEXT, \n\teffect_size_json TEXT, \n\tdescriptive_statistics_json TEXT, \n\tassumption_checks_json TEXT, \n\twarnings_json TEXT, \n\tresult_json TEXT, \n\tsoftware_versions_json TEXT, \n\tcreated_at DATETIME NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(statistical_run_id) REFERENCES statistical_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "statistical_results",
+        "statistical_results",
+        "CREATE TABLE statistical_results (\n\tanalysis_run_id CHAR(32) NOT NULL, \n\tmethod VARCHAR(100) NOT NULL, \n\tstatistic FLOAT, \n\tp_value FLOAT, \n\teffect_size FLOAT, \n\tconfidence_interval_json TEXT, \n\tassumption_checks_json TEXT, \n\tresult_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(analysis_run_id) REFERENCES analysis_runs (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "statistical_runs",
+        "statistical_runs",
+        "CREATE TABLE statistical_runs (\n\tproject_id CHAR(32) NOT NULL, \n\tdataset_id CHAR(32) NOT NULL, \n\tprofile_id CHAR(32), \n\tquality_run_id CHAR(32), \n\tmethod VARCHAR(100) NOT NULL, \n\tstatus VARCHAR(14) NOT NULL, \n\tmethodset_version VARCHAR(100) NOT NULL, \n\tdataset_sha256 VARCHAR(64) NOT NULL, \n\tinput_config_json TEXT, \n\tmissing_value_policy VARCHAR(50) NOT NULL, \n\tsample_size INTEGER, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\terror_code VARCHAR(100), \n\terror_message TEXT, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE, \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE CASCADE, \n\tFOREIGN KEY(profile_id) REFERENCES dataset_profiles (id) ON DELETE SET NULL, \n\tFOREIGN KEY(quality_run_id) REFERENCES quality_runs (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "users",
+        "users",
+        "CREATE TABLE users (\n\temail VARCHAR(320) NOT NULL, \n\tpassword_hash VARCHAR(255) NOT NULL, \n\tdisplay_name VARCHAR(255), \n\tis_active BOOLEAN NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id)\n)"
+      ],
+      [
+        "table",
+        "variables",
+        "variables",
+        "CREATE TABLE variables (\n\tdataset_id CHAR(32) NOT NULL, \n\tname VARCHAR(255) NOT NULL, \n\tdisplay_name VARCHAR(255), \n\tdata_type VARCHAR(50) NOT NULL, \n\tsemantic_type VARCHAR(19), \n\trole VARCHAR(10) NOT NULL, \n\tdescription TEXT, \n\tmissing_rate FLOAT, \n\tunique_count INTEGER, \n\tnullable BOOLEAN, \n\tsample_values_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "workflow_nodes",
+        "workflow_nodes",
+        "CREATE TABLE workflow_nodes (\n\tworkflow_id CHAR(32) NOT NULL, \n\tnode_type VARCHAR(100) NOT NULL, \n\toperation VARCHAR(100) NOT NULL, \n\tparameters_json TEXT, \n\tposition_json TEXT, \n\tinput_schema_json TEXT, \n\toutput_schema_json TEXT, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(workflow_id) REFERENCES workflows (id) ON DELETE CASCADE\n)"
+      ],
+      [
+        "table",
+        "workflow_runs",
+        "workflow_runs",
+        "CREATE TABLE workflow_runs (\n\tworkflow_id CHAR(32) NOT NULL, \n\tdataset_id CHAR(32), \n\tstatus VARCHAR(9) NOT NULL, \n\tgraph_snapshot_json TEXT, \n\tnode_results_json TEXT, \n\torder_json TEXT, \n\ttotal_seconds FLOAT, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\terror_message TEXT, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(workflow_id) REFERENCES workflows (id) ON DELETE CASCADE, \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "workflows",
+        "workflows",
+        "CREATE TABLE workflows (\n\tproject_id CHAR(32) NOT NULL, \n\tdataset_id CHAR(32), \n\tname VARCHAR(255) NOT NULL, \n\tversion INTEGER NOT NULL, \n\tstatus VARCHAR(9) NOT NULL, \n\tgraph_json TEXT, \n\tcreated_by VARCHAR(255), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id) ON DELETE CASCADE, \n\tFOREIGN KEY(dataset_id) REFERENCES datasets (id) ON DELETE SET NULL\n)"
+      ],
+      [
+        "table",
+        "workspace_preview_executions",
+        "workspace_preview_executions",
+        "CREATE TABLE workspace_preview_executions (\n\tuser_id CHAR(32) NOT NULL, \n\tproject_id CHAR(32) NOT NULL, \n\tplan_id CHAR(32) NOT NULL, \n\tplan_revision INTEGER NOT NULL, \n\trequest_id VARCHAR(64) NOT NULL, \n\tinput_hash VARCHAR(64) NOT NULL, \n\tstatus VARCHAR(32) NOT NULL, \n\tresults_json TEXT NOT NULL, \n\terror_code VARCHAR(64), \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tUNIQUE (user_id, request_id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id), \n\tFOREIGN KEY(plan_id) REFERENCES workspace_preview_records (id)\n)"
+      ],
+      [
+        "table",
+        "workspace_preview_records",
+        "workspace_preview_records",
+        "CREATE TABLE workspace_preview_records (\n\tuser_id CHAR(32) NOT NULL, \n\tproject_id CHAR(32) NOT NULL, \n\tkind VARCHAR(20) NOT NULL, \n\trevision INTEGER NOT NULL, \n\tpayload_json TEXT NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(project_id) REFERENCES projects (id)\n)"
+      ],
+      [
+        "table",
+        "workspace_preview_revisions",
+        "workspace_preview_revisions",
+        "CREATE TABLE workspace_preview_revisions (\n\trecord_id CHAR(32) NOT NULL, \n\trevision INTEGER NOT NULL, \n\tpayload_json TEXT NOT NULL, \n\tid CHAR(32) NOT NULL, \n\tcreated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tupdated_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL, \n\tPRIMARY KEY (id), \n\tUNIQUE (record_id, revision), \n\tFOREIGN KEY(record_id) REFERENCES workspace_preview_records (id)\n)"
+      ]
+    ],
+    "table_flags": [
+      [
+        "agent_plans",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "agent_sessions",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "agent_steps",
+        "table",
+        12,
+        0,
+        0
+      ],
+      [
+        "ai_invocations",
+        "table",
+        17,
+        0,
+        0
+      ],
+      [
+        "analysis_runs",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "audit_events",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "auth_sessions",
+        "table",
+        9,
+        0,
+        0
+      ],
+      [
+        "dataset_profiles",
+        "table",
+        17,
+        0,
+        0
+      ],
+      [
+        "datasets",
+        "table",
+        25,
+        0,
+        0
+      ],
+      [
+        "material_citations",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "materials",
+        "table",
+        13,
+        0,
+        0
+      ],
+      [
+        "ml_experiments",
+        "table",
+        14,
+        0,
+        0
+      ],
+      [
+        "ml_runs",
+        "table",
+        19,
+        0,
+        0
+      ],
+      [
+        "model_runs",
+        "table",
+        10,
+        0,
+        0
+      ],
+      [
+        "preview_charges",
+        "table",
+        7,
+        0,
+        0
+      ],
+      [
+        "preview_configs",
+        "table",
+        9,
+        0,
+        0
+      ],
+      [
+        "preview_effects",
+        "table",
+        7,
+        0,
+        0
+      ],
+      [
+        "preview_turns",
+        "table",
+        12,
+        0,
+        0
+      ],
+      [
+        "projects",
+        "table",
+        13,
+        0,
+        0
+      ],
+      [
+        "quality_findings",
+        "table",
+        17,
+        0,
+        0
+      ],
+      [
+        "quality_runs",
+        "table",
+        24,
+        0,
+        0
+      ],
+      [
+        "review_findings",
+        "table",
+        13,
+        0,
+        0
+      ],
+      [
+        "sqlite_schema",
+        "table",
+        5,
+        0,
+        0
+      ],
+      [
+        "stat_findings",
+        "table",
+        10,
+        0,
+        0
+      ],
+      [
+        "stat_results",
+        "table",
+        18,
+        0,
+        0
+      ],
+      [
+        "statistical_results",
+        "table",
+        11,
+        0,
+        0
+      ],
+      [
+        "statistical_runs",
+        "table",
+        19,
+        0,
+        0
+      ],
+      [
+        "users",
+        "table",
+        7,
+        0,
+        0
+      ],
+      [
+        "variables",
+        "table",
+        14,
+        0,
+        0
+      ],
+      [
+        "workflow_nodes",
+        "table",
+        10,
+        0,
+        0
+      ],
+      [
+        "workflow_runs",
+        "table",
+        14,
+        0,
+        0
+      ],
+      [
+        "workflows",
+        "table",
+        10,
+        0,
+        0
+      ],
+      [
+        "workspace_preview_executions",
+        "table",
+        12,
+        0,
+        0
+      ],
+      [
+        "workspace_preview_records",
+        "table",
+        8,
+        0,
+        0
+      ],
+      [
+        "workspace_preview_revisions",
+        "table",
+        6,
+        0,
+        0
+      ]
+    ],
+    "tables": {
+      "agent_plans": {
+        "columns": [
+          [
+            0,
+            "session_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "user_goal",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "status",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "current_step",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "total_steps",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "completed_steps",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "failed_steps",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "snapshot_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "agent_sessions",
+            "session_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "session_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_agent_plans_session_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                2,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_agent_plans_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_agent_plans_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "agent_sessions": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "name",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "approval_mode",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "data_export_policy",
+            "VARCHAR(30)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "token_budget",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "max_time_seconds",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "max_steps",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_agent_sessions_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_agent_sessions_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "agent_steps": {
+        "columns": [
+          [
+            0,
+            "plan_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "step_index",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "tool",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "parameters_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "status",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "input_hash",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "output_hash",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "result_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "error",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "retry_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "approval_granted",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "agent_plans",
+            "plan_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "plan_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_agent_steps_plan_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_agent_steps_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                11,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_agent_steps_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "ai_invocations": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "provider",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "model",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "prompt_id",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "prompt_version",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "input_hash",
+            "VARCHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "output_hash",
+            "VARCHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "token_usage_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "latency_ms",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "cost_estimate",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "status",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            15,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            16,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ai_invocations_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                3,
+                "prompt_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ai_invocations_prompt_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "provider",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ai_invocations_provider",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                14,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_ai_invocations_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "analysis_runs": {
+        "columns": [
+          [
+            0,
+            "workflow_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "workflow_version",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "dataset_hash",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "status",
+            "VARCHAR(9)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "random_seed",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "environment_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "workflows",
+            "workflow_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "workflow_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_analysis_runs_workflow_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_analysis_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "audit_events": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "actor_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "actor_email",
+            "VARCHAR(320)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "event_type",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "entity_type",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "entity_id",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "before_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "after_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "actor_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_audit_events_actor_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                3,
+                "event_type",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_audit_events_event_type",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_audit_events_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_audit_events_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "auth_sessions": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "token_hash",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "expires_at",
+            "DATETIME",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "revoked",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "user_agent",
+            "VARCHAR(512)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "ip_address",
+            "VARCHAR(45)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            7,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            8,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "token_hash",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_auth_sessions_token_hash",
+            "origin": "c",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "user_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_auth_sessions_user_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                6,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_auth_sessions_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "dataset_profiles": {
+        "columns": [
+          [
+            0,
+            "dataset_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "status",
+            "VARCHAR(9)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "profiling_version",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "algorithm_version",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "dataset_sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "row_count",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "column_count",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "sampled",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "sample_size",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "result_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            15,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            16,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "dataset_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_dataset_profiles_dataset_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                14,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_dataset_profiles_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "datasets": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "original_filename",
+            "VARCHAR(512)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "safe_filename",
+            "VARCHAR(512)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "file_format",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "mime_type",
+            "VARCHAR(127)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "file_size",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "object_key",
+            "VARCHAR(1024)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "bucket",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "row_count",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "column_count",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "schema_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "preview_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "upload_status",
+            "VARCHAR(10)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "validated_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            17,
+            "name",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            18,
+            "file_path",
+            "VARCHAR(1024)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            19,
+            "file_type",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            20,
+            "content_hash",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            21,
+            "profile_status",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            22,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            23,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            24,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_datasets_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                6,
+                "sha256",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_datasets_sha256",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                22,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_datasets_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "material_citations": {
+        "columns": [
+          [
+            0,
+            "material_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "material_sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "material_version",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "reviewed",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "locator_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            2,
+            0,
+            "materials",
+            "material_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "material_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_material_citations_material_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                2,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_material_citations_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_material_citations_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "materials": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "filename",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "mime_type",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "file_size",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "version",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "object_key",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "metadata_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "extraction_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            11,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            12,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_materials_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                10,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_materials_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "ml_experiments": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "dataset_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "profile_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "name",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "task_type",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "target_variable",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "feature_variables_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "categorical_variables_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "config_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "dataset_sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            12,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            13,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "dataset_profiles",
+            "profile_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ],
+          [
+            2,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "dataset_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ml_experiments_dataset_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ml_experiments_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "task_type",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ml_experiments_task_type",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                11,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_ml_experiments_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "ml_runs": {
+        "columns": [
+          [
+            0,
+            "experiment_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "status",
+            "VARCHAR(9)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "random_seed",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "validation_strategy",
+            "VARCHAR(50)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "split_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "metrics_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "comparison_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "leakage_checks_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "n_observations",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "artifact_key",
+            "VARCHAR(1024)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "artifact_meta_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "software_versions_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            17,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            18,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "ml_experiments",
+            "experiment_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "experiment_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ml_runs_experiment_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_ml_runs_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                16,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_ml_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "model_runs": {
+        "columns": [
+          [
+            0,
+            "analysis_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "model_type",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "parameters_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "validation_strategy",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "metrics_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "feature_names_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "artifact_path",
+            "VARCHAR(1024)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            8,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            9,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "analysis_runs",
+            "analysis_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "analysis_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_model_runs_analysis_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                7,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_model_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "preview_charges": {
+        "columns": [
+          [
+            0,
+            "config_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "turn_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "amount",
+            "NUMERIC(20, 8)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "status",
+            "VARCHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            5,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            6,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "preview_turns",
+            "turn_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "preview_configs",
+            "config_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_charges_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "preview_configs": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "vault_namespace",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "config_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "reserved",
+            "NUMERIC(20, 8)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "key_configured",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            7,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            8,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                6,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_configs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "user_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_configs_2",
+            "origin": "u",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "preview_effects": {
+        "columns": [
+          [
+            0,
+            "turn_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "operation_hash",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "status",
+            "VARCHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "result_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            5,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            6,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "preview_turns",
+            "turn_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_effects_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "turn_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                1,
+                "operation_hash",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                2,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_effects_2",
+            "origin": "u",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "preview_turns": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "request_id",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "input_hash",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "scope_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "authorization_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "status",
+            "VARCHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "response_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "error_code",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            10,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            11,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                9,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_turns_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "user_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                2,
+                "request_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                2,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_preview_turns_2",
+            "origin": "u",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "projects": {
+        "columns": [
+          [
+            0,
+            "owner_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "title",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "description",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "research_question",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "task_type",
+            "VARCHAR(25)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "status",
+            "VARCHAR(8)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "current_revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "frozen_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "snapshot_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "is_deleted",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            11,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            12,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "users",
+            "owner_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "owner_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_projects_owner_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                10,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_projects_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "quality_findings": {
+        "columns": [
+          [
+            0,
+            "quality_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "rule_id",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "rule_version",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "category",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "severity",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "status",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "title",
+            "VARCHAR(500)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "summary",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "evidence_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "affected_columns_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "affected_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "affected_ratio",
+            "FLOAT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "threshold_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "observed_value_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "remediation",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "created_at",
+            "DATETIME",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "quality_runs",
+            "quality_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                3,
+                "category",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_findings_category",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "quality_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_findings_quality_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "rule_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_findings_rule_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "severity",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_findings_severity",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                5,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_findings_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                16,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_quality_findings_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "quality_runs": {
+        "columns": [
+          [
+            0,
+            "dataset_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "profile_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "status",
+            "VARCHAR(21)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "ruleset_version",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "threshold_config_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "dataset_sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "total_rules",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "passed_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "warning_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "failed_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "error_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "skipped_count",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "overall_score",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            17,
+            "score_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            18,
+            "ohlcv_enabled",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            19,
+            "sampled",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            20,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            21,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            22,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            23,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "dataset_profiles",
+            "profile_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "dataset_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_quality_runs_dataset_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                21,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_quality_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "review_findings": {
+        "columns": [
+          [
+            0,
+            "analysis_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "source",
+            "VARCHAR(11)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "category",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "severity",
+            "VARCHAR(8)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "title",
+            "VARCHAR(500)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "description",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "evidence_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "suggestion",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "confidence",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "resolution",
+            "VARCHAR(8)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            11,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            12,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "analysis_runs",
+            "analysis_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "analysis_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_review_findings_analysis_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                10,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_review_findings_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "stat_findings": {
+        "columns": [
+          [
+            0,
+            "statistical_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "rule_id",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "category",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "severity",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "title",
+            "VARCHAR(500)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "summary",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "evidence_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "remediation",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "created_at",
+            "DATETIME",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "statistical_runs",
+            "statistical_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                2,
+                "category",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_stat_findings_category",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "rule_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_stat_findings_rule_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                3,
+                "severity",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_stat_findings_severity",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "statistical_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_stat_findings_statistical_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                9,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_stat_findings_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "stat_results": {
+        "columns": [
+          [
+            0,
+            "statistical_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "method",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "result_type",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "statistic_name",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "statistic_value",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "degrees_of_freedom_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "p_value",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "alternative",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "confidence_level",
+            "FLOAT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "confidence_interval_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "effect_size_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "descriptive_statistics_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "assumption_checks_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "warnings_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "result_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "software_versions_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "created_at",
+            "DATETIME",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            17,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "statistical_runs",
+            "statistical_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "statistical_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_stat_results_statistical_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                17,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_stat_results_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "statistical_results": {
+        "columns": [
+          [
+            0,
+            "analysis_run_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "method",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "statistic",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "p_value",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "effect_size",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "confidence_interval_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "assumption_checks_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "result_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            9,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            10,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "analysis_runs",
+            "analysis_run_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "analysis_run_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_statistical_results_analysis_run_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                8,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_statistical_results_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "statistical_runs": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "dataset_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "profile_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "quality_run_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "method",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "status",
+            "VARCHAR(14)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "methodset_version",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "dataset_sha256",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "input_config_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "missing_value_policy",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "sample_size",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            12,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            13,
+            "error_code",
+            "VARCHAR(100)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            14,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            15,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            16,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            17,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            18,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "quality_runs",
+            "quality_run_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "dataset_profiles",
+            "profile_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            2,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ],
+          [
+            3,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "dataset_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_statistical_runs_dataset_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "method",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_statistical_runs_method",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_statistical_runs_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                5,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_statistical_runs_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                16,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_statistical_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "users": {
+        "columns": [
+          [
+            0,
+            "email",
+            "VARCHAR(320)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "password_hash",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "display_name",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "is_active",
+            "BOOLEAN",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            5,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            6,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "email",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_users_email",
+            "origin": "c",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                4,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_users_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "variables": {
+        "columns": [
+          [
+            0,
+            "dataset_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "name",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "display_name",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "data_type",
+            "VARCHAR(50)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "semantic_type",
+            "VARCHAR(19)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "role",
+            "VARCHAR(10)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "description",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "missing_rate",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "unique_count",
+            "INTEGER",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "nullable",
+            "BOOLEAN",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "sample_values_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            12,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            13,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "dataset_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_variables_dataset_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                11,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_variables_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workflow_nodes": {
+        "columns": [
+          [
+            0,
+            "workflow_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "node_type",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "operation",
+            "VARCHAR(100)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "parameters_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "position_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "input_schema_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "output_schema_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            8,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            9,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "workflows",
+            "workflow_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "workflow_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workflow_nodes_workflow_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                7,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workflow_nodes_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workflow_runs": {
+        "columns": [
+          [
+            0,
+            "workflow_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "dataset_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "status",
+            "VARCHAR(9)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "graph_snapshot_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "node_results_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "order_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "total_seconds",
+            "FLOAT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "started_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "completed_at",
+            "DATETIME",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "error_message",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            10,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            11,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            12,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            13,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "workflows",
+            "workflow_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                2,
+                "status",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workflow_runs_status",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "workflow_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workflow_runs_workflow_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                11,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workflow_runs_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workflows": {
+        "columns": [
+          [
+            0,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "dataset_id",
+            "CHAR(32)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "name",
+            "VARCHAR(255)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "version",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "status",
+            "VARCHAR(9)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "graph_json",
+            "TEXT",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "created_by",
+            "VARCHAR(255)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            8,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            9,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "datasets",
+            "dataset_id",
+            "id",
+            "NO ACTION",
+            "SET NULL",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "CASCADE",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workflows_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                7,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workflows_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workspace_preview_executions": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "plan_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "plan_revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "request_id",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "input_hash",
+            "VARCHAR(64)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            6,
+            "status",
+            "VARCHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            7,
+            "results_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            8,
+            "error_code",
+            "VARCHAR(64)",
+            0,
+            null,
+            0,
+            0
+          ],
+          [
+            9,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            10,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            11,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "workspace_preview_records",
+            "plan_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            2,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                9,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workspace_preview_executions_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "user_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                4,
+                "request_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                2,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workspace_preview_executions_2",
+            "origin": "u",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workspace_preview_records": {
+        "columns": [
+          [
+            0,
+            "user_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "project_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "kind",
+            "VARCHAR(20)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            4,
+            "payload_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            5,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            6,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            7,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "projects",
+            "project_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ],
+          [
+            1,
+            0,
+            "users",
+            "user_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                1,
+                "project_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workspace_preview_records_project_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "user_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "ix_workspace_preview_records_user_id",
+            "origin": "c",
+            "partial": 0,
+            "unique": 0
+          },
+          {
+            "keys": [
+              [
+                0,
+                5,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workspace_preview_records_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      },
+      "workspace_preview_revisions": {
+        "columns": [
+          [
+            0,
+            "record_id",
+            "CHAR(32)",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            1,
+            "revision",
+            "INTEGER",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            2,
+            "payload_json",
+            "TEXT",
+            1,
+            null,
+            0,
+            0
+          ],
+          [
+            3,
+            "id",
+            "CHAR(32)",
+            1,
+            null,
+            1,
+            0
+          ],
+          [
+            4,
+            "created_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ],
+          [
+            5,
+            "updated_at",
+            "DATETIME",
+            1,
+            "CURRENT_TIMESTAMP",
+            0,
+            0
+          ]
+        ],
+        "foreign_keys": [
+          [
+            0,
+            0,
+            "workspace_preview_records",
+            "record_id",
+            "id",
+            "NO ACTION",
+            "NO ACTION",
+            "NONE"
+          ]
+        ],
+        "indexes": [
+          {
+            "keys": [
+              [
+                0,
+                3,
+                "id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workspace_preview_revisions_1",
+            "origin": "pk",
+            "partial": 0,
+            "unique": 1
+          },
+          {
+            "keys": [
+              [
+                0,
+                0,
+                "record_id",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                1,
+                1,
+                "revision",
+                0,
+                "BINARY",
+                1
+              ],
+              [
+                2,
+                -1,
+                null,
+                0,
+                "BINARY",
+                0
+              ]
+            ],
+            "name": "sqlite_autoindex_workspace_preview_revisions_2",
+            "origin": "u",
+            "partial": 0,
+            "unique": 1
+          }
+        ]
+      }
+    }
+  }
+}

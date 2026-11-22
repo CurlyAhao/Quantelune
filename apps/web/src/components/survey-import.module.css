@@ -1,0 +1,11 @@
+.root { margin: 0 0 1rem; }
+.mapping { margin-top: .75rem; display: grid; gap: .75rem; }
+.settings { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; }
+.settings label { display: grid; gap: .35rem; min-width: 12rem; }
+.mapping table { width: 100%; }
+.mapping th { text-align: left; }
+.mapping td { vertical-align: top; overflow-wrap: anywhere; }
+.mapping td:nth-child(2) { min-width: 8rem; }
+.mapping td:nth-child(3) { min-width: 6rem; }
+.example { max-width: 30rem; white-space: normal; overflow-wrap: anywhere; }
+.mapping > button, .mapping section > button { justify-self: start; margin-top: .25rem; }

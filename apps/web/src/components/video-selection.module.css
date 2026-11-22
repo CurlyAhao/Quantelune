@@ -1,0 +1,31 @@
+.selection {
+  container-type:inline-size;
+  min-width:0;
+  padding-block:12px 6px;
+  border-top:1px solid var(--rw-line);
+  font-variant-numeric:tabular-nums;
+}
+.heading,.fields,.actions,.toolbar,.field,.field label {display:flex;align-items:center;}
+.heading,.toolbar {flex-wrap:wrap;gap:6px 14px;}
+.heading {font-size:13px;color:var(--rw-muted);}
+.heading strong {font-size:15px;color:var(--rw-text);}
+.heading small {margin-inline-start:auto;}
+.toolbar {justify-content:space-between;}
+.fields,.actions {gap:6px;}
+.fields {flex-wrap:wrap;font-size:12px;color:var(--rw-muted);}
+.field {border:1px solid var(--rw-field);border-radius:5px;background:var(--rw-surface);padding:0 2px 0 7px;}
+.field:focus-within {outline:2px solid var(--rw-accent);outline-offset:1px;}
+.field label {gap:3px;font-size:12px;white-space:nowrap;}
+.field label input {width:6.3ch;min-width:0;min-height:32px;margin:0;padding:0;border:0;background:transparent;text-align:center;color:var(--rw-text);font-size:14px;font-weight:600;appearance:textfield;box-shadow:none;}
+.field label input:focus-visible {outline:none;}
+.field label input::-webkit-inner-spin-button {appearance:none;}
+.field button,.fields .full {min-height:25px;padding:3px 5px;border:0;background:transparent;color:var(--rw-accent);}
+.field button {display:grid;place-items:center;border-inline-start:1px solid var(--rw-line);border-radius:0;}
+.fields .full {text-decoration:underline;text-underline-offset:3px;}
+.fields .full:disabled {opacity:.5;text-decoration:none;}
+.actions button {display:inline-flex;align-items:center;gap:6px;white-space:nowrap;min-height:34px;}
+.cursor {position:absolute;top:7px;height:18px;width:2px;background:var(--rw-text);pointer-events:none;}
+.menu {min-width:max-content;}
+.menu small {margin-inline-start:auto;padding-inline-start:12px;color:var(--muted-foreground);font-variant-numeric:tabular-nums;}
+@container (max-width:620px) {.toolbar {flex-direction:column;align-items:flex-start;gap:8px;}}
+@container (max-width:380px) {.fields {gap:3px;}.heading small {margin-inline-start:0;}.fields>span {display:none;}}
